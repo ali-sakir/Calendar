@@ -1,0 +1,29 @@
+.calendar {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* overflow: hidden; */
+}
+
+    .calendar-header {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        background-color: #f1f1f1;
+        font-weight: bold;
+    }
+
+.calendar-day, .calendar-day-cell {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.calendar-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.empty {
+    background-color: #f9f9f9;
+    color: #ccc;
+}

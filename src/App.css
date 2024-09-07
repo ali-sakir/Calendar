@@ -1,0 +1,12 @@
+input.cal {
+  width: 50%;
+  border: 1px solid black;
+  /* text-align: center; */
+  margin: auto;
+  display: block;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}

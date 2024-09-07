@@ -1,0 +1,60 @@
+.date-picker-container {
+    position: relative;
+    width: 300px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .date-range-picker {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 10;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calendar-row {
+    display: flex;
+  }
+  
+  .calendar-cell {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .calendar-cell.empty {
+    cursor: default;
+  }
+  
+  .calendar-cell.weekend {
+    color: red;
+  }
+  
+  .calendar-cell.selected {
+    background-color: lightblue;
+  }
+  
+  .calendar-cell.in-range {
+    background-color: lightgray;
+  }
+  
